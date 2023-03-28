@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Przemysław Jura</title>
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;0,500;0,600;1,500&amp;display=swap" rel="stylesheet">
+
+    <!--Pattern made by Tomislava Babić https://www.toptal.com/designers/subtlepatterns/oriental-tiles-pattern/-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery.scrollto@2.1.3/jquery.scrollTo.min.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+  </head>
+  <body>
+
+
+    <div class="container" id="container">
+        <div class="nav">
+            <div class="logo"><a href="#home">Przemysław Jura</a></div>
+            <div class="options">
+                <a href="#home"><div class="menuoption fir">Home</div></a>
+                <a href="#about_me_skill"><div class="menuoption sec">About me/Skill</div></a>
+                <a href="#project"><div class="menuoption thr">Projects</div></a>
+                <a href="#small_project"><div class="menuoption frth">Small projects</div></a>
+                <a href="#future_project"><div class="menuoption frth">Future projects</div></a>
+                <a href="#contact"><div class="menuoption fiv">Contact</div></a>
+            </div>
+            <div id="burger">
+                <div class="menu-btn" onclick="openNav()">
+                    <div class="menu-btn_burger"></div>
+                </div>
+            </div>
+        </div>
+
+        <nav>
+            <div id="mySidenav" class="sidenav">
+
+                <div class="option" id="sidenav3" onclick="openNav()">
+                    <a href="#home">Home</a>
+
+                </div>
+                <div class="option" id="sidenav4" onclick="openNav()">
+                    <a href="#about_me_skill">About me/Skill</a>
+
+                </div>
+                <div class="option" id="sidenav5" onclick="openNav()">
+                    <a href="#project">Projects</a>
+
+                </div>
+                <div class="option" id="sidenav6" onclick="openNav()">
+                    <a href="#small_project">Small projects</a>
+
+                </div>
+                <div class="option" id="sidenav9" onclick="openNav()">
+                    <a href="#future_project">Future projects</a>
+
+                </div>
+                <div class="option" id="sidenav7" onclick="openNav()">
+                    <a href="#contact">Contact</a>
+
+                </div>
+
+                <div id="sidenav8">Designed & Built by Przemysław Jura</div>
+
+            </div>
+        </nav>
+
+
+
+        <main>
+            <div class="home" id="home">
+                <div class="hello">Hi, my name is</div>
+                <div class="name">Przemysław Jura</div>
+                <div class="abstract">I am a computer science student who loves to program in his spare time. Currently, I am focused on creating websites using the latest technologies.</div>
+                <a href="#about_me_skill"><div class="read">About me</div></a>
+            </div>
+
+
+            <div class="about_me_skill" id="about_me_skill">
+                <div class="about_me">
+                    <div class="figure">
+                        <img src="./images/my_photo.png">
+                    </div>
+                    <div class="about_me_name">About me</div>
+                    <div class="about_me_abstract">
+                        I am a third-year student studying computer science. I have always been interested in programming and solving logic puzzles. Through my own further education but also through my studies I have gained knowledge of operating systems, structures and algorithms, database management and computer networks. I have had the opportunity to develop programmes in languages such as C/C++/C#, Python and JavaScript, which has allowed me to understand how clean and clear code should be created. Plus, team projects taught me how to work with others.
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="figure">
+                        <img src="./images/code.png">
+                        <!--<a href="https://www.flaticon.com/free-icons/code" title="code icons">Code icons created by Royyan Wijaya - Flaticon</a>-->
+                    </div>
+                    <div class="skill_name">Skill</div>
+                    <div class="skill_abstract">
+                        <div class="column">
+                            <div class="column_title_fr">Languages and Libraries / Frameworks</div>
+                            <p>C# /.NET, C++ &starf; &starf; &starf; &star;</p>
+                            <p>HTML5, CSS3/SASS, Bootstrap &starf; &starf; &starf; &star;</p>
+                            <p>JavaScript / jQuery &starf; &starf; &starf; &star;</p>
+                            <p>Assembler &starf; &starf; &starf; &star;</p>
+                            <p>React &starf; &starf; &starf; &star;</p>
+                        </div>
+                        <div class="column">
+                            <div class="column_title">Dev Tool and Skill</div>
+                            <p>.NET Core 3.1+, LINQ</p>
+                            <p>API</p>
+                            <p>SOLID, OOP</p>
+                            <p>MSSQL, MYSQL, ORACLE</p>
+                            <div class="column_title">Control system</div>
+                            <p>Git, GitHub</p>
+                       </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project" id="project">
+                <div class="title">Projects</div>
+                <div class="project_one">
+                    <a href="https://przemyslawjura.github.io/MovieWebsite/"><img src="./images/project_one.png" alt="projekt_one"></a>
+                    <div class="opis">
+                        <div class="boxname">Web Project</div>
+                        <div class="boxsecname"><a href="https://przemyslawjura.github.io/MovieWebsite/">Movie website</a></div>
+                        <div class="boxabstract">A website dedicated to the film, with its own database, ranking and contact form. The website is responsive, and there is a menu on the side.</div>
+                        <div class="boxtech">JavaScript jQuery AJAX MYSQL</div>
+                        <div class="boxcode"><a href="https://github.com/PrzemyslawJura/MovieWebsite">Git</a> | <a href="https://przemyslawjura.github.io/MovieWebsite/">Website</a></div></div>
+                </div>
+                <div class="project_two">
+                    <a href="https://przemyslawjura.github.io/Train-timetable/"><img src="./images/project_two.png" alt="projekt_one"></a>
+                    <div class="opis">
+                        <div class="boxname">.NET Project</div>
+                        <div class="boxsecname"><a href="https://przemyslawjura.github.io/Train-timetable/">Train timetable</a></div>
+                        <div class="boxabstract">Internet application for finding connections between cities. It contains CRUD written in .NET. The application allows you to register and modify account properties.</div>
+                        <div class="boxtech">.NET C# MicrosoftSQL</div>
+                        <div class="boxcode"><a href="https://github.com/PrzemyslawJura/Train-timetable">Git</a> | <a href="https://przemyslawjura.github.io/Train-timetable/">Website</a></div></div>
+                </div>
+                <div class="project_three">
+                    <a href="https://przemyslawjura.github.io/Portfolio/"><img src="./images/project_three.png" alt="projekt_one"></a>
+                    <div class="opis">
+                        <div class="boxname">Web Project</div>
+                        <div class="boxsecname"><a href="https://przemyslawjura.github.io/Portfolio/">Portfolio website</a></div>
+                        <div class="boxabstract">The website you are currently on is intended to be a simple and clear presentation of my person.</div>
+                        <div class="boxtech">SASS JavaScript</div>
+                        <div class="boxcode"><a href="https://github.com/PrzemyslawJura/Portfolio">Git</a> | <a href="https://przemyslawjura.github.io/Portfolio/">Website</a></div></div>
+                </div>
+            </div>
+
+            <div class="small_project" id="small_project">
+                <div class="sm_project_title">Small Projects</div>
+                <a href="https://github.com/PrzemyslawJura/Fractal">
+                    <div class="sm_project">
+                        <div class="sm_project_name">Fractal</div>
+                        <div class="sm_project_abstract">An application written in C# using an assembler DLL to generate and approximate fractals.</div>
+                        <div class="sm_project_tech">C# Assembler </div>
+                    </div>
+                </a>
+                <a href="https://github.com/PrzemyslawJura/WPFapplication">
+                    <div class="sm_project">
+                        <div class="sm_project_name">WPF app</div>
+                        <div class="sm_project_abstract">A desktop application written in WPF that aims to organize read and unread books. Such a bookcase.</div>
+                        <div class="sm_project_tech">C# WPF MicrosoftSQL</div>
+                    </div>
+                </a>
+                <a href="https://github.com/PrzemyslawJura/Snake">
+                    <div class="sm_project">
+                        <div class="sm_project_name">Snake</div>
+                        <div class="sm_project_abstract">A simple game written in python using the pygame library.</div>
+                        <div class="sm_project_tech">Python</div>
+                    </div>
+                </a>
+            </div>
+
+
+            <div class="future_project" id="small_project">
+                <div class="fm_project_title">Currently I working on</div>
+                <div class="fm_project">
+                    <div class="sm_project_name">Diet and work out app</div>
+                    <div class="sm_project_abstract">An application for team classes involving the generation of diet and training for personal settings. The project is organized in SCRUM mode.</div>
+                    <div class="sm_project_tech">C# WPF MicrosoftSQL</div>
+                </div>
+                <div class="fm_project">
+                    <div class="sm_project_name">Web app to manage hairdress salon</div>
+                    <div class="sm_project_abstract">A web application for managing the salon offer with the option of booking a service date. Front-end will be done in React and CRUD in .NET.</div>
+                    <div class="sm_project_tech">C# .NET React </div>
+                </div>
+            </div>
+
+            <div class="contact" id="contact">
+                <div class="contact_title">Follow me on:</div>
+                <div class="contact_sub">
+                    <a href="https://github.com/PrzemyslawJura" target="blank">
+                        <div class="gt_icon"></div>
+                    </a>
+                    <a href="https://pl.linkedin.com/in/przemys%C5%82aw-jura-01158b235/en?trk=people-guest_people_search-card" target="blank">
+                    <div class="ln_icon"></div>
+                    </a>
+                </div>
+                <div class="contact_cv">CV</div>
+                <div class="footer">Designed & Built by Przemysław Jura</div>
+            </div>
+        </main>
+
+    </div>
+    <script src="./javascript/script.js"></script>
+  </body>
+</html>
