@@ -391,6 +391,9 @@ main {
   padding-bottom: 20px;
   padding-top: 10px;
 }
+.contact a {
+  text-decoration: none;
+}
 .contact .contact_cv {
   color: #417DCD;
   font-size: 1.5rem;
@@ -405,6 +408,7 @@ main {
   margin-right: auto;
   transition: 0.2s;
   clear: both;
+  text-decoration: none;
 }
 .contact .contact_cv:hover {
   background-color: #2864B4;
@@ -529,8 +533,22 @@ main {
   .project_one .opis .boxname, .project_two .opis .boxname, .project_three .opis .boxname {
     padding-top: 40px !important;
   }
+  .project_two {
+    background-image: url(../images/dark_three.png) !important;
+  }
+  .project_three {
+    background-image: url(../images/dark_six.png) !important;
+  }
   .project_one:hover {
-    background-image: url(../images/project_one.png) !important;
+    background-image: url(../images/dark_two.png) !important;
+    cursor: pointer;
+  }
+  .project_two:hover {
+    background-image: url(../images/dark_four.png) !important;
+    cursor: pointer;
+  }
+  .project_three:hover {
+    background-image: url(../images/dark_five.png) !important;
     cursor: pointer;
   }
 }

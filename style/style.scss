@@ -483,6 +483,10 @@ main {
     }
   }
 
+  a {
+    text-decoration: none;
+  }
+
   .contact_cv {
     color: #417DCD;
     font-size: 1.5rem;
@@ -497,6 +501,7 @@ main {
     margin-right: auto;
     transition: 0.2s;
     clear: both;
+    text-decoration: none;
 }
 
 .contact_cv:hover {
@@ -618,6 +623,7 @@ main {
     width: 40% !important;
   }
 
+
   .project_one, .project_two, .project_three {
     background-image: url(../images/dark_one.png) !important;
     background-size: cover !important;
@@ -653,8 +659,27 @@ main {
       }
     }
   }
+
+  .project_two {
+    background-image: url(../images/dark_three.png) !important;
+  }
+
+  .project_three {
+    background-image: url(../images/dark_six.png) !important;
+  }
+
+
+
   .project_one:hover {
-    background-image: url(../images/project_one.png) !important;
+    background-image: url(../images/dark_two.png) !important;
+    cursor: pointer;
+  }
+  .project_two:hover {
+    background-image: url(../images/dark_four.png) !important;
+    cursor: pointer;
+  }
+  .project_three:hover {
+    background-image: url(../images/dark_five.png) !important;
     cursor: pointer;
   }
 }
