@@ -863,7 +863,7 @@ main {
 
 
 /*ANIMATION*/
-.menu-btn.open .menu-btn_burger {
+/*.menu-btn.open .menu-btn_burger {
   transform: translateX(-65px);
   background-color: transparent;
   box-shadow: none;
@@ -873,12 +873,12 @@ main {
 }
 .menu-btn.open .menu-btn_burger::after {
   transform: rotate(-45deg) translate(35px, 35px);
-}
+}*/
 
 /*SIDENAV*/
 .sidenav {
   font-family: "Lato", sans-serif;
-  margin-top: 76px;
+  margin-top: 10px;
   height: 100%;
   width: 0;
   position: fixed;
@@ -896,6 +896,12 @@ main {
  #sidenav3, #sidenav4, #sidenav5, #sidenav6, #sidenav7, #sidenav8, #sidenav9 {
   transition-delay: .3s;
   transition: .2s;
+}
+
+.burger2 {
+  position: absolute;
+  right: 40px;
+  top: 12px;
 }
 .sidenav a {
   padding: 10px 0px 1px 0px;

@@ -63,6 +63,8 @@ menuBtn.addEventListener('click', () => {
 function openNav() {
     if(navv == true) {
         document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("container").style.display = "block";
+        document.getElementById("burger2").style.opacity = "0";
         document.getElementById("sidenav3").style.opacity = "0";
         document.getElementById("sidenav4").style.opacity = "0";
         document.getElementById("sidenav5").style.opacity = "0";
@@ -74,6 +76,8 @@ function openNav() {
     else if(navv == false && window.innerWidth < 1200)
     {
         document.getElementById("mySidenav").style.width = "100%";
+        document.getElementById("container").style.display = "none";
+        document.getElementById("burger2").style.opacity = "1";
         document.getElementById("sidenav3").style.opacity = "1";
         document.getElementById("sidenav4").style.opacity = "1";
         document.getElementById("sidenav5").style.opacity = "1";
