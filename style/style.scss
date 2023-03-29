@@ -795,7 +795,8 @@ main {
   }
 
   .fm_project_title {
-    font-size: 28px !important;
+    font-size: 22px !important;
+    width: 330px !important;
   }
 
   .fm_project {
@@ -898,11 +899,33 @@ main {
   transition: .2s;
 }
 
-.burger2 {
-  position: absolute;
-  right: 40px;
-  top: 12px;
+#sidenav3 {
+  padding-top: 60px;
 }
+
+
+.logo2 {
+  a {
+    position: absolute;
+    left: 20px;
+    top: 0;
+    font-size: 22px;
+    font-weight: 500;
+    color: whitesmoke;
+    float: left;
+    padding-left: 20px;
+    text-decoration: none;
+    font-family: 'Source Code Pro', monospace;
+  }
+
+}
+
+#btn2 {
+  right: 40px;
+  top: 2px !important;
+}
+
+
 .sidenav a {
   padding: 10px 0px 1px 0px;
   text-decoration: none;

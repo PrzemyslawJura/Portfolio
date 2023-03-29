@@ -21,6 +21,7 @@ const sec = document.querySelector(".sec");
 const thr = document.querySelector(".thr");
 const frth = document.querySelector(".frth");
 const fiv = document.querySelector(".fiv");
+const six = document.querySelector(".six");
 
 fir.classList.add("menuoption--light");
 
@@ -38,6 +39,10 @@ window.addEventListener("scroll", () =>{
         frth.classList.remove("menuoption--light");
     } else if (scrollY > 2750 && scrollY <= 3200){
         frth.classList.add("menuoption--light");
+        thr.classList.remove("menuoption--light");
+        fiv.classList.remove("menuoption--light");
+    } else if (scrollY > 2750 && scrollY <= 3200){
+        six.classList.add("menuoption--light");
         thr.classList.remove("menuoption--light");
         fiv.classList.remove("menuoption--light");
     }
@@ -70,6 +75,7 @@ function openNav() {
         document.getElementById("sidenav5").style.opacity = "0";
         document.getElementById("sidenav6").style.opacity = "0";
         document.getElementById("sidenav7").style.opacity = "0";
+        document.getElementById("sidenav8").style.opacity = "0";
         document.getElementById("container").style.marginLeft = "0";
         navv = false;
     }
@@ -83,6 +89,7 @@ function openNav() {
         document.getElementById("sidenav5").style.opacity = "1";
         document.getElementById("sidenav6").style.opacity = "1";
         document.getElementById("sidenav7").style.opacity = "1";
+        document.getElementById("sidenav8").style.opacity = "1";
         document.getElementById("container").style.marginLeft = "100%";
         navv = true;
     }
