@@ -566,6 +566,11 @@ main {
     margin-right: 5% !important;
     width: 90% !important;
   }
+  .fm_project {
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+    width: 90% !important;
+  }
   .project_one img, .project_two img, .project_three img {
     display: none;
     width: 100%;
@@ -620,6 +625,14 @@ main {
     padding-bottom: 150px !important;
   }
   .sm_project {
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+    width: 90% !important;
+  }
+  .fm_project_title {
+    font-size: 28px !important;
+  }
+  .fm_project {
     margin-left: 5% !important;
     margin-right: 5% !important;
     width: 90% !important;
